@@ -1,0 +1,59 @@
+PHP exercise 1
+
+<?php
+echo "Twinkle, Twinkle little star.\n";
+$first ="Twinkle";
+$second ="star";
+echo "$first, $first little $second.\n";
+$first = "Yum";
+$second = "balls.";
+echo "$first, $first little $second.";
+?>
+
+
+
+<?php 
+$x =10;
+$y =7;
+$answer =10+7;
+echo "10 + 7 = $answer\n";
+$answer =10 - 7;
+echo "10 - 7 = $answer\n";
+$answer = 10 * 7;
+echo "10 * 7 = $answer\n";
+$answer = 10 / 7;
+echo "10 / 7 = $answer\n";
+$answer = 10 % 7;
+echo "10 % 7 = $answer\n";
+?>
+
+
+
+<?php
+$variable = 8;
+echo "Value is now $variable.\n";
+$variable += 2;
+echo "add 2. Value is now $variable.\n";
+$variable -= 4;
+echo "Subtract 4. Value is now $variable.\n";
+$variable *= 5;
+echo "Multiply by 5. Value is now $variable.\n";
+$variable /= 3;
+echo "Divide by 3. Value is now $variable.\n";
+$variable ++;
+echo "Increment value by one. Value is now $variable.\n";
+$variable --;
+echo "Decrement value by one. Value is now $variable.\n";
+?>
+
+
+<?php
+$name = 'Harry';
+$age = 28;
+var_dump($name);
+print_r($name);
+echo"\n";
+var_dump($age);
+$name=null;
+var_dump($name);
+?>
