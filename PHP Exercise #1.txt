@@ -1,0 +1,9 @@
+<?php
+echo "Twinkle, Twinkle little star.\n";
+$first ="Twinkle";
+$second ="star";
+echo "$first, $first little $second.\n";
+$first = "Yum";
+$second = "balls.";
+echo "$first, $first little $second.";
+?>
